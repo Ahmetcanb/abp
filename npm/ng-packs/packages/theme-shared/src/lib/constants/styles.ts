@@ -32,6 +32,11 @@ export default `
   min-width: 215px;
 }
 
+.datatable-scroll {
+  margin-bottom: 5px !important;
+  width: unset !important;
+}
+
 .ui-table-scrollable-body::-webkit-scrollbar {
   height: 5px !important;
   width: 5px !important;
@@ -135,6 +140,9 @@ export default `
 }
 .sorting_asc:after {
   opacity: .3;
+}
+.ngx-datatable.material {
+  box-shadow: none;
 }
 
 @keyframes fadeInTop {
